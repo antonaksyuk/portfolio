@@ -1,12 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>project!</title>
 
-    <link href="./styles/index.css" rel="stylesheet" />
-  </head>
-  <body></body>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My portfolio</title>
+
+  <link href="./styles/index.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- HEADER -->
+
+  <header class="header">
+    <h1 class="header_logo">
+      <a href="https://antonaksyuk.github.io/portfolio/" target="_blank">
+        <img src="./public/MY_LOGO.JPG" alt="logo" class="logo_img" width="80px" height="80px">
+      </a>
+    </h1>
+    <nav class="header_nav">
+      <ul class="header_nav_list">
+        <li class="header_nav_list_item">
+          <a href="#about-me-section">About me</a>
+        </li>
+        <li class="header_nav_list_item">
+          <a href="#skills-section">Skills</a>
+        </li>
+        <li class="header_nav_list_item">
+          <a href="#works-section">My works</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main section -->
+
+  <main class="main">
+
+    <!-- HERO section -->
+
+    <section class="hero_overlay">
+      <div class="hero_container">
+        <h1 class="hero_name">Crafting digital experiences <br>through elegant code and creative design</h1>
+        <button type="button" class="hero_mail_button">SEND MESSAGE</button>
+      </div>
+    </section>
+
+    <!-- ABOUT ME section -->
+
+    <section class="about" id="about-me-section">
+      <div class="about_container">
+        <img src="./public/photo.JPG" alt="my photo">
+        <p class="about_text">Hi, I’m Anton! I’m currently studying to become a web developer, turning my passion for
+          coding into a new career.
+          Previously, I worked as a lawyer, but I decided to switch paths to follow my love for technology and
+          creativity.
+          I enjoy building modern, user-friendly websites and continuously learning new skills to improve my craft.
+          Transitioning
+          into web development has been an exciting journey, and I’m eager to create impactful digital experiences.
+          Let’s connect and bring ideas to life!</p>
+      </div>
+    </section>
+
+    <!-- SKILLS section -->
+
+    <section class="skills" id="skills-section">
+      <div class="skills_container">
+        <ul class="skills_list">
+          <li class="skills_list_item">
+            <a href="https://html.com/" target="_blank">
+              <img src="./public/svg-html-5.svg" alt="svg-html-5">
+            </a>
+          </li>
+          <li class="skills_list_item">
+            <a href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank">
+              <img src="./public/svg-css3.svg" alt="svg-css3">
+            </a>
+          </li>
+          <li class="skills_list_item">
+            <a href="https://www.javascript.com/" target="_blank">
+              <img src="./public/svg-javascript.svg" alt="svg-javascript">
+            </a>
+          </li>
+          <li class="skills_list_item">
+            <a href="https://code.visualstudio.com/" target="_blank">
+              <img src="./public/svg-visual-studio-code-2019.svg" alt="svg-visual-studio-code">
+            </a>
+          </li>
+          <li class="skills_list_item">
+            <a href="https://react.dev/" target="_blank">
+              <img src="./public/svg-react-native.svg" alt="svg-react-native">
+            </a>
+          </li>
+          <li class="skills_list_item">
+            <a href="https://nodejs.org/en" target="_blank">
+              <img src="./public/svg-nodejs.svg" alt="svg-nodejs">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- WORKS section -->
+
+    <section class="works" id="works-section">
+      <div class="works_container">
+        <ul class="works_list">
+          <li class="works_list_item">
+            <a href="https://antonaksyuk.github.io/goit-react-hw-04-images/" target="_blank">
+              <div>
+                <img src="./public/search photos.jpg" alt="search images" width="400" height="300">
+                <div>
+                  <p></p>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="works_list_item">
+            <a href="https://n0t4.github.io/Cinemania/" target="_blank">
+              <div>
+                <img src="./public/Cinemania.jpg" alt="Cinemania" width="400" height="300">
+                <div>
+                  <p></p>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="works_list_item">
+            <a href="https://antonaksyuk.github.io/goit-react-hw-04-feedback/" target="_blank">
+              <div>
+                <img src="./public/feedback counter.jpg" alt="feedback counter" width="400" height="300">
+                <div>
+                  <p></p>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="works_list_item">
+            <a href="https://antonaksyuk.github.io/goit-markup-hw-08/" target="_blank">
+              <div>
+                <img src="./public/WebStudio.jpg" alt=" WebStudio" width="400" height="300">
+                <div>
+                  <p></p>
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+
+  <footer class="footer">
+    <div class="footer_container">
+      <a href="https://antonaksyuk.github.io/portfolio/" target="_blank">
+        <img src="./public/MY_LOGO.JPG" alt="logo" class="logo_img" width="80px" height="80px">
+      </a>
+    </div>
+  </footer>
+  <div class="footer_subscription">
+    <p class="footer_headline">Join me</p>
+    <ul class="footer_social_list">
+
+      <!-- instagram -->
+      <li class="social_list_item">
+        <a href="" class="social_list_link">
+          <img src="./public/svg-instagram.svg" alt="instagram">
+        </a>
+      </li>
+
+      <!-- twitter -->
+      <li class="social_list_item">
+        <a href="" class="social_list_link">
+          <img src="./public/svg-twitter.svg" alt="twitter">
+        </a>
+      </li>
+
+      <!-- facebook -->
+      <li class="social_list_item">
+        <a href="" class="social_list_link">
+          <img src="./public/svg-facebook.svg" alt="facebook">
+        </a>
+      </li>
+
+      <!-- linkedIn -->
+      <li class="social_list_item">
+        <a href="" class="social_list_link">
+          <img src="./public/svg-linkedin.svg" alt="linkedIn">
+        </a>
+      </li>
+    </ul>
+  </div>
+</body>
+
 </html>
